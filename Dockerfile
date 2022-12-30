@@ -6,7 +6,6 @@ CMD ["/sbin/my_init"]
 # Install dependencies:
 RUN apt-get update && apt-get install -y \
     screen \
-    libhwloc5 \
     sudo \
     nodejs \
  && mkdir -p /home/stuff
